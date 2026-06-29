@@ -46,8 +46,6 @@ outputs/
                                   不同数据集违反次数统计图
 
 requirements.txt                 Python 依赖列表
-environment_setup.md             环境搭建说明
-report_body_draft.md             报告正文草稿文本
 ```
 
 ## 复现实验规模
