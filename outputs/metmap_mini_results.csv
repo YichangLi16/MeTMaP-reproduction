@@ -1,0 +1,7 @@
+﻿case_id,mr_id,expected_doc_id,source_rank,followup_rank,top_overlap,source_expected_score,followup_expected_score,negative_expected_score,violated,source_top1,followup_top1
+tc01,MR-Similar,rag_false_match,1,1,0.333,0.8118,0.5922,,True,rag_false_match,rag_false_match
+tc02,MR-Similar,metamorphic_testing,1,1,0.667,0.7562,0.8475,,False,metamorphic_testing,metamorphic_testing
+tc03,MR-Irrelevant-Noise,rag_retrieval,1,1,0.667,0.7317,0.6799,,False,rag_retrieval,rag_retrieval
+tc04,MR-Irrelevant-Noise,embedding_similarity,1,1,1.0,0.8159,0.7146,,False,embedding_similarity,embedding_similarity
+tc05,MR-Contradictory,rag_false_match,1,1,0.667,0.8132,0.6792,,False,rag_false_match,rag_false_match
+tc06,MR-Contradictory,metamorphic_testing,1,1,1.0,0.8992,0.8973,,False,metamorphic_testing,metamorphic_testing

@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+doc_check/
+final_doc_check/
+final_pdf_check/
+
+*.log
+*.tmp
+*.bak
+
+# Large local caches or downloaded model/data artifacts, if generated later.
+cache/
+data/cache/
+models/
+*.pt
+*.pth
+*.safetensors

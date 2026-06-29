@@ -1,0 +1,11 @@
+﻿model,distance,violations
+sentence-transformers/multi-qa-mpnet-base-dot-v1,mahalanobis,176
+sentence-transformers/multi-qa-mpnet-base-dot-v1,euclidean,149
+sentence-transformers/multi-qa-mpnet-base-dot-v1,lance_williams,147
+sentence-transformers/multi-qa-mpnet-base-dot-v1,bray_curtis,146
+sentence-transformers/multi-qa-mpnet-base-dot-v1,manhattan,146
+sentence-transformers/multi-qa-mpnet-base-dot-v1,cosine_distance,146
+sentence-transformers/multi-qa-mpnet-base-dot-v1,pearson_correlation,146
+sentence-transformers/multi-qa-MiniLM-L6-cos-v1,mahalanobis,141
+sentence-transformers/msmarco-MiniLM-L6-cos-v5,mahalanobis,140
+sentence-transformers/gtr-t5-base,mahalanobis,132
